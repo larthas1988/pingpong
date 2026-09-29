@@ -1,0 +1,41 @@
+dist/
+deploy_versions/
+.temp/
+.rn_temp/
+node_modules/
+.DS_Store
+.swc
+.native-web/
+.vscode
+.idea
+docs/*
+!docs/spm-specs/
+!docs/third-tn-component.yaml
+settings.local.json
+.mcp.local.json
+.claude/audits/
+.claude/scheduled_tasks.lock
+.agents/*
+
+# JoyCode stamp 临时文件
+.joycode/*
+!.joycode/rules/
+!.joycode/commands/
+!.joycode/skills/
+!.joycode/stamp.sh
+.playwright-mcp/
+jd-login.png
+.ai-native-space
+/.idea/workspace.xml
+.hvigor/
+temp
+review-data
+pro-harness/eval/reports/
+
+# Python 字节码缓存（验证 skill 脚本 import 时产生，纯运行产物）
+__pycache__/
+*.pyc
+dd-memory/
+
+# Shared harness repository (managed by scripts/harness-refresh.sh)
+/harness/
