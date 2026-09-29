@@ -1,0 +1,30 @@
+.gitignore
+  h_3504810dda1bb0 1-41
+index.html
+  h_3504810dda1bb0 1-58
+package-lock.json
+  h_3504810dda1bb0 1-1014
+package.json
+  h_3504810dda1bb0 1-17
+src/controls.js
+  h_3504810dda1bb0 1-124
+src/game.js
+  h_3504810dda1bb0 1-729
+src/leaderboard.js
+  h_3504810dda1bb0 1-54
+src/main.js
+  h_3504810dda1bb0 1-155
+src/style.css
+  h_3504810dda1bb0 1-292
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "df8d9a2f1f5f64d9ecf75894201126623a3cec24",
+  "prompts": {},
+  "humans": {
+    "h_3504810dda1bb0": {
+      "author": "liuhuan14 <liuhuan3@jd.com>"
+    }
+  }
+}
