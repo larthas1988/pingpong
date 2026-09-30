@@ -7,52 +7,9 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover"
     />
     <title>对墙乒乓球 · Wall Ping Pong</title>
-    <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
-    <div id="app">
-      <canvas id="scene"></canvas>
-
-      <!-- 得分 HUD -->
-      <div id="hud">
-        <div class="score-box">
-          <span class="label">得分</span>
-          <span id="score" class="value">0</span>
-        </div>
-        <div class="score-box">
-          <span class="label">最高连击</span>
-          <span id="combo" class="value">0</span>
-        </div>
-      </div>
-
-      <!-- 排行榜 -->
-      <div id="leaderboard">
-        <h3>排行榜</h3>
-        <ol id="rank-list"></ol>
-      </div>
-
-      <!-- 开始遮罩 -->
-      <div id="overlay" class="visible">
-        <div class="panel">
-          <h1>对墙乒乓球</h1>
-          <p class="sub">以握拍视角把球打向墙壁，接住回弹的球即可得分<br/>球一旦落地，本局立即结束</p>
-          <div class="tips">
-            <div class="tip">
-              <b>移动球拍</b>
-              <span>鼠标 / 手指在屏幕上的位置即为球拍位置</span>
-            </div>
-            <div class="tip">
-              <b>移动端</b>
-              <span>按住屏幕拖动即可控制球拍</span>
-            </div>
-          </div>
-          <button id="start-btn">开始游戏</button>
-        </div>
-      </div>
-
-      <!-- 失分提示 -->
-      <div id="miss-toast"></div>
-    </div>
-    <script type="module" src="/src/main.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

@@ -185,6 +185,11 @@ body,
   margin-bottom: 22px;
 }
 
+.panel .final-score {
+  color: #6ee7ff;
+  font-size: 20px;
+}
+
 .tips {
   display: flex;
   flex-direction: column;
