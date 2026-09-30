@@ -1,0 +1,38 @@
+index.html
+  h_3504810dda1bb0 12-13
+package-lock.json
+  h_3504810dda1bb0 11-12,16,20-301,693-742,760-766,1117-1161,1169-1289,1329-1338,1354-1413,1433-1442,1479-1509,1556-1571,1588-1618,1678-1684
+package.json
+  h_3504810dda1bb0 12-13,17,20
+src/components/App.jsx
+  h_3504810dda1bb0 1-44
+src/components/Hud.jsx
+  h_3504810dda1bb0 1-35
+src/components/Leaderboard.jsx
+  h_3504810dda1bb0 1-22
+src/components/MissToast.jsx
+  h_3504810dda1bb0 1-22
+src/components/Overlay.jsx
+  h_3504810dda1bb0 1-67
+src/main.jsx
+  h_3504810dda1bb0 1-10
+src/style.css
+  h_3504810dda1bb0 188-192
+src/useGame.js
+  h_3504810dda1bb0 1,6-121
+src/useOrientation.js
+  h_3504810dda1bb0 1-57
+vite.config.js
+  h_3504810dda1bb0 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4f4995c54da666ef35c1956421879560f81f1001",
+  "prompts": {},
+  "humans": {
+    "h_3504810dda1bb0": {
+      "author": "liuhuan14 <liuhuan3@jd.com>"
+    }
+  }
+}
